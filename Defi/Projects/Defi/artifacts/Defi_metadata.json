@@ -1,0 +1,206 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract AvToken",
+						"name": "_avToken",
+						"type": "address"
+					},
+					{
+						"internalType": "contract RewardToken",
+						"name": "_rewardToken",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "avToken",
+				"outputs": [
+					{
+						"internalType": "contract AvToken",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "hasStaked",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "isStaking",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "rewardToken",
+				"outputs": [
+					{
+						"internalType": "contract RewardToken",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "stakers",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "stakingBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Projects/Defi/Defi.sol": "Defi"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Projects/Defi/AvStakeToken.sol": {
+			"keccak256": "0x1df6554ca5188a56b1979295cf709de1a9b78947b946ca86996ab9786354e3cd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9313c30851d96d2007079f201039de5ff7b91747106b10af03e0176cab3dc3fc",
+				"dweb:/ipfs/QmPcAxbH9AmXJ6SeJdM8bTBXUXwNaqF7HkAui2XksrDyGK"
+			]
+		},
+		"Projects/Defi/Defi.sol": {
+			"keccak256": "0x5a9307a86154252a2fa0bc4af2be180f6044b3a306186b62d14e9ba804f3b96d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://502c274962f1c04d985998929dbcc988e72f7314ecfb7264941d209d5338a244",
+				"dweb:/ipfs/Qmav4ncHb1JQCpnVkUrZ8F5Q2vVJJmwfakHLEcAqkzUkmH"
+			]
+		},
+		"Projects/Defi/RewardToken.sol": {
+			"keccak256": "0x71b2d321d8749b4be90c412662f3bfc77928fb2944ebe226506a81abaef03fb2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9b80931914e02ade27ba36a90501caf22f52210d17dc46885d585df24d36f535",
+				"dweb:/ipfs/QmaUucxNaVDxJk1YZSaxjdVveMBiXj78cK7gnP5RHWhN4z"
+			]
+		}
+	},
+	"version": 1
+}
