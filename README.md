@@ -1,2 +1,2 @@
-# Solidity-Projects
-Here you cand find and use my Projects and Apps making with Solidity
+# Blockchain-Projects
+Here you cand find and use my Blockchain Projects making with solidity, JavaSript or Python... 
