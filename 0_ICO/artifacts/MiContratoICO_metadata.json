@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_openingTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_closingTime",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "closingTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "openingTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/0_ICO/test.sol": "MiContratoICO"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/0_ICO/test.sol": {
+			"keccak256": "0x92ec6a97c31479a98e00266022ebcd3a8910b9bfd225b8a9645689e124e5830d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://83668dbcdd9fcdd6cc5773d502f1758ffa870fa6f7eefc2ca56f9ef616bf41d6",
+				"dweb:/ipfs/QmNUjaSChtqzJ4MVDruzzoUWUQjUXSYhq2iS5PiwpvWtoj"
+			]
+		}
+	},
+	"version": 1
+}
